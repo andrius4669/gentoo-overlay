@@ -12,7 +12,7 @@ SRC_URI="http://download.dnscrypt.org/${PN}/${P}.tar.gz"
 
 LICENSE="ISC"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="~amd64 ~x86 ~arm"
 IUSE="+plugins ldns systemd"
 
 DEPEND="dev-libs/libsodium
